@@ -1,0 +1,459 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'flow-chart' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /Users/zhoulinzhu./router-demo/package.json
+5 warn package.json router-demo@1.0.0 No description
+6 warn package.json router-demo@1.0.0 No repository field.
+7 warn package.json router-demo@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/babel-core/package.json
+9 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/babel-loader/package.json
+10 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/babel-preset-es2015/package.json
+11 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/babel-preset-react/package.json
+12 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/cross-env/package.json
+13 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/css-loader/package.json
+14 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/echarts/package.json
+15 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/echarts-for-react/package.json
+16 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/file-loader/package.json
+17 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/flow-chart/package.json
+18 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/highcharts-exporting/package.json
+19 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/highcharts-more/package.json
+20 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/http-server/package.json
+21 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/jquery/package.json
+22 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/node-sass/package.json
+23 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/prop-types/package.json
+24 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/react/package.json
+25 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/react-css-modules/package.json
+26 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/react-dom/package.json
+27 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/react-highcharts/package.json
+28 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/react-js-diagrams/package.json
+29 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/react-router/package.json
+30 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/sass-loader/package.json
+31 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/scss-loader/package.json
+32 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/style-loader/package.json
+33 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/url-loader/package.json
+34 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/webpack/package.json
+35 verbose installManyTop reading scoped package data from /Users/zhoulinzhu./router-demo/node_modules/webpack-dev-server/package.json
+36 info package.json echarts@3.7.0 No license field.
+37 info package.json highcharts-more@0.1.2 No repository field.
+38 info package.json highcharts-more@0.1.2 license should be a valid SPDX license expression
+39 info package.json highcharts-exporting@0.1.2 No repository field.
+40 info package.json highcharts-exporting@0.1.2 license should be a valid SPDX license expression
+41 verbose readDependencies loading dependencies from /Users/zhoulinzhu./router-demo/package.json
+42 verbose install flow-chart is installed as 0.0.2
+43 silly cache add args [ 'flow-chart', null ]
+44 verbose cache add spec flow-chart
+45 silly cache add parsed spec Result {
+45 silly cache add   raw: 'flow-chart',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'flow-chart',
+45 silly cache add   rawSpec: '',
+45 silly cache add   spec: 'latest',
+45 silly cache add   type: 'tag' }
+46 silly addNamed flow-chart@latest
+47 verbose addNamed "latest" is being treated as a dist-tag for flow-chart
+48 info addNameTag [ 'flow-chart', 'latest' ]
+49 silly mapToRegistry name flow-chart
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'flow-chart',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   name: 'flow-chart',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/flow-chart
+54 verbose addNameTag registry:https://registry.npmjs.org/flow-chart not in flight; fetching
+55 verbose request uri https://registry.npmjs.org/flow-chart
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 2:35:13 PM
+58 verbose request id df099b09084ee5c5
+59 verbose etag W/"5990689c-16a7"
+60 verbose lastModified Sun, 13 Aug 2017 14:56:28 GMT
+61 http request GET https://registry.npmjs.org/flow-chart
+62 http 304 https://registry.npmjs.org/flow-chart
+63 verbose headers { date: 'Tue, 29 Aug 2017 06:35:13 GMT',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   'cache-control': 'max-age=300',
+63 verbose headers   etag: 'W/"5990689c-16a7"',
+63 verbose headers   age: '0',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'x-served-by': 'cache-nrt6120-NRT',
+63 verbose headers   'x-cache': 'HIT',
+63 verbose headers   'x-cache-hits': '1',
+63 verbose headers   'x-timer': 'S1503988513.330494,VS0,VE134',
+63 verbose headers   vary: 'Accept-Encoding, Accept' }
+64 silly get cb [ 304,
+64 silly get   { date: 'Tue, 29 Aug 2017 06:35:13 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     etag: 'W/"5990689c-16a7"',
+64 silly get     age: '0',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-nrt6120-NRT',
+64 silly get     'x-cache': 'HIT',
+64 silly get     'x-cache-hits': '1',
+64 silly get     'x-timer': 'S1503988513.330494,VS0,VE134',
+64 silly get     vary: 'Accept-Encoding, Accept' } ]
+65 verbose etag https://registry.npmjs.org/flow-chart from cache
+66 verbose get saving flow-chart to /Users/zhoulinzhu./.npm/registry.npmjs.org/flow-chart/.cache.json
+67 verbose correctMkdir /Users/zhoulinzhu./.npm correctMkdir not in flight; initializing
+68 silly addNameTag next cb for flow-chart with tag latest
+69 silly addNamed flow-chart@0.0.2
+70 verbose addNamed "0.0.2" is a plain semver version for flow-chart
+71 silly cache afterAdd flow-chart@0.0.2
+72 verbose afterAdd /Users/zhoulinzhu./.npm/flow-chart/0.0.2/package/package.json not in flight; writing
+73 verbose correctMkdir /Users/zhoulinzhu./.npm correctMkdir not in flight; initializing
+74 verbose afterAdd /Users/zhoulinzhu./.npm/flow-chart/0.0.2/package/package.json written
+75 silly install resolved [ { name: 'flow-chart',
+75 silly install resolved     version: '0.0.2',
+75 silly install resolved     description: 'is a collection of React components to draw an algorithm, workflow or process diagram',
+75 silly install resolved     main: 'flow-chart.js',
+75 silly install resolved     scripts:
+75 silly install resolved      { babel: 'babel src -d .',
+75 silly install resolved        build: 'npm run browserify; npm run homepage',
+75 silly install resolved        browserify: 'for x in demo dist; do npm run browserify_$x; done',
+75 silly install resolved        browserify_demo: 'NODE_PATH=. browserify demo.js -t babelify -o docs/demo/bundle.js',
+75 silly install resolved        browserify_dist: 'BABEL_ENV=umd NODE_ENV=production browserify -r ./${npm_package_name}.js:${npm_package_name} -t babelify -o dist/${npm_package_name}.js',
+75 silly install resolved        flow: 'flow',
+75 silly install resolved        homepage: 'echo "---\ntitle: $npm_package_name\nflow: /empty.json\n---" > docs/index.md; cat README.md >> docs/index.md',
+75 silly install resolved        lint: 'cd src; standard --fix; cd --',
+75 silly install resolved        postversion: 'git push origin v${npm_package_version}; npm publish; git push origin master',
+75 silly install resolved        prebrowserify_demo: 'npm run babel',
+75 silly install resolved        start: 'NODE_PATH=src budo demo.js --dir ./docs/demo/ --serve bundle.js --live --open -- -t babelify',
+75 silly install resolved        test: 'echo "Error: no test specified" && exit 1' },
+75 silly install resolved     'pre-commit': [ 'lint' ],
+75 silly install resolved     repository:
+75 silly install resolved      { type: 'git',
+75 silly install resolved        url: 'git+https://github.com/fibo/flow-chart.git' },
+75 silly install resolved     keywords: [ 'flowchart', 'flow-chart', 'react', 'components' ],
+75 silly install resolved     author: { name: 'Gianluca Casati', url: 'http://g14n.info' },
+75 silly install resolved     license: 'MIT',
+75 silly install resolved     bugs: { url: 'https://github.com/fibo/flow-chart/issues' },
+75 silly install resolved     homepage: 'http://g14n.info/flow-chart',
+75 silly install resolved     peerDependencies: { react: '16.x', 'react-dom': '16.x' },
+75 silly install resolved     dependencies: { bindme: '^1.0.0' },
+75 silly install resolved     devDependencies:
+75 silly install resolved      { 'babel-cli': '^6.24.1',
+75 silly install resolved        'babel-eslint': '^7.2.3',
+75 silly install resolved        'babel-plugin-transform-class-properties': '^6.24.1',
+75 silly install resolved        'babel-plugin-transform-es2015-modules-umd': '^6.24.1',
+75 silly install resolved        'babel-preset-env': '^1.6.0',
+75 silly install resolved        'babel-preset-flow': '^6.23.0',
+75 silly install resolved        'eslint-plugin-flowtype': '^2.35.0',
+75 silly install resolved        'flow-bin': '^0.52.0',
+75 silly install resolved        'pre-commit': '^1.2.2',
+75 silly install resolved        standard: '^10.0.2',
+75 silly install resolved        'zeroconf-redux': '^2.0.0' },
+75 silly install resolved     standard: { globals: [Object], parser: 'babel-eslint', plugins: [Object] },
+75 silly install resolved     gitHead: '91256ee10b268605d3e4dc8cabc8d2c24a6c045f',
+75 silly install resolved     _id: 'flow-chart@0.0.2',
+75 silly install resolved     _npmVersion: '5.3.0',
+75 silly install resolved     _nodeVersion: '8.2.1',
+75 silly install resolved     _npmUser: { name: 'fibo', email: 'casati_gianluca@yahoo.it' },
+75 silly install resolved     dist:
+75 silly install resolved      { integrity: 'sha512-IFnc3MFlH0AcY1f3yGLclgXzXzbowTDnTbQWS+qmHXUZO2TlUdlvkNG7yN7dYTfBXINu6Ywxh7eBtiS8PmwXPg==',
+75 silly install resolved        shasum: '26605729b5ebbcf23803315cd56e96171e7891a5',
+75 silly install resolved        tarball: 'https://registry.npmjs.org/flow-chart/-/flow-chart-0.0.2.tgz' },
+75 silly install resolved     maintainers: [ [Object] ],
+75 silly install resolved     _npmOperationalInternal:
+75 silly install resolved      { host: 's3://npm-registry-packages',
+75 silly install resolved        tmp: 'tmp/flow-chart-0.0.2.tgz_1502636187280_0.48818069603294134' },
+75 silly install resolved     directories: {},
+75 silly install resolved     _shasum: '26605729b5ebbcf23803315cd56e96171e7891a5',
+75 silly install resolved     _resolved: 'https://registry.npmjs.org/flow-chart/-/flow-chart-0.0.2.tgz',
+75 silly install resolved     _from: 'flow-chart@latest',
+75 silly install resolved     readme: 'ERROR: No README data found!' } ]
+76 info install flow-chart@0.0.2 into /Users/zhoulinzhu./router-demo
+77 info installOne flow-chart@0.0.2
+78 verbose installOne of flow-chart to /Users/zhoulinzhu./router-demo not in flight; installing
+79 verbose correctMkdir /Users/zhoulinzhu./.npm/_locks correctMkdir not in flight; initializing
+80 verbose lock using /Users/zhoulinzhu./.npm/_locks/flow-chart-2881fc7bb28455e7.lock for /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+81 silly install write writing flow-chart 0.0.2 to /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+82 verbose unbuild node_modules/flow-chart
+83 info preuninstall flow-chart@0.0.2
+84 info uninstall flow-chart@0.0.2
+85 verbose unbuild rmStuff flow-chart@0.0.2 from /Users/zhoulinzhu./router-demo/node_modules
+86 info postuninstall flow-chart@0.0.2
+87 silly gentlyRm /Users/zhoulinzhu./router-demo/node_modules/flow-chart is being purged from base /Users/zhoulinzhu./router-demo
+88 verbose gentlyRm don't care about contents; nuking /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+89 silly vacuum-fs purging /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+90 silly vacuum-fs quitting because other entries in /Users/zhoulinzhu./router-demo/node_modules
+91 verbose tar unpack /Users/zhoulinzhu./.npm/flow-chart/0.0.2/package.tgz
+92 verbose tar unpacking to /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+93 silly gentlyRm /Users/zhoulinzhu./router-demo/node_modules/flow-chart is being purged
+94 verbose gentlyRm don't care about contents; nuking /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+95 silly gunzTarPerm modes [ '755', '644' ]
+96 silly gunzTarPerm extractEntry package.json
+97 silly gunzTarPerm extractEntry .npmignore
+98 silly gunzTarPerm extractEntry README.md
+99 silly gunzTarPerm extractEntry demo.js
+100 silly gunzTarPerm extractEntry flow-chart.js
+101 silly gunzTarPerm extractEntry types.js
+102 silly gunzTarPerm extractEntry docs/_config.yml
+103 silly gunzTarPerm extractEntry docs/_includes/common/README.md
+104 silly gunzTarPerm extractEntry docs/_includes/common/analytics.html
+105 silly gunzTarPerm extractEntry docs/_includes/common/cookieconsent.html
+106 silly gunzTarPerm extractEntry docs/_includes/common/favicon.html
+107 silly gunzTarPerm extractEntry docs/_includes/common/footer.html
+108 silly gunzTarPerm extractEntry docs/_includes/common/js-bundle.html
+109 silly gunzTarPerm extractEntry docs/_includes/common/meta.html
+110 silly gunzTarPerm extractEntry docs/_includes/common/nav.html
+111 silly gunzTarPerm extractEntry docs/_includes/common/style.html
+112 silly gunzTarPerm extractEntry docs/_layouts/common/README.md
+113 silly gunzTarPerm extractEntry docs/_layouts/common/page.html
+114 silly gunzTarPerm extractEntry docs/demo/bundle.js
+115 silly gunzTarPerm extractEntry docs/demo/index.html
+116 silly gunzTarPerm extractEntry docs/index.md
+117 silly gunzTarPerm extractEntry dist/flow-chart.js
+118 silly gunzTarPerm extractEntry .flowconfig
+119 silly gunzTarPerm extractEntry components/Arrow.js
+120 silly gunzTarPerm extractEntry components/Decision.js
+121 silly gunzTarPerm extractEntry components/DraggableToolbarIcon.js
+122 silly gunzTarPerm extractEntry components/Process.js
+123 silly gunzTarPerm extractEntry components/RectangularSelection.js
+124 silly gunzTarPerm extractEntry components/Canvas.js
+125 silly gunzTarPerm extractEntry components/Terminator.js
+126 silly gunzTarPerm extractEntry components/Toolbar.js
+127 silly gunzTarPerm extractEntry components/defaultProps.js
+128 silly gunzTarPerm extractEntry components/defaultStyle.js
+129 silly gunzTarPerm extractEntry components/index.js
+130 silly gunzTarPerm extractEntry components/Step.js
+131 silly gunzTarPerm extractEntry .babelrc
+132 silly gunzTarPerm extractEntry src/flow-chart.js
+133 silly gunzTarPerm extractEntry src/types.js
+134 silly gunzTarPerm extractEntry src/components/Arrow.js
+135 silly gunzTarPerm extractEntry src/components/Canvas.js
+136 silly gunzTarPerm extractEntry src/components/Decision.js
+137 silly gunzTarPerm extractEntry src/components/DraggableToolbarIcon.js
+138 silly gunzTarPerm extractEntry src/components/Process.js
+139 silly gunzTarPerm extractEntry src/components/RectangularSelection.js
+140 silly gunzTarPerm extractEntry src/components/Step.js
+141 silly gunzTarPerm extractEntry src/components/Terminator.js
+142 silly gunzTarPerm extractEntry src/components/Toolbar.js
+143 silly gunzTarPerm extractEntry src/components/index.js
+144 silly gunzTarPerm extractEntry src/utils/css.js
+145 silly gunzTarPerm extractEntry src/utils/randomString.js
+146 silly gunzTarPerm extractEntry utils/css.js
+147 silly gunzTarPerm extractEntry utils/randomString.js
+148 verbose write writing to /Users/zhoulinzhu./router-demo/node_modules/flow-chart/package.json
+149 info preinstall flow-chart@0.0.2
+150 verbose readDependencies loading dependencies from /Users/zhoulinzhu./router-demo/node_modules/flow-chart/package.json
+151 silly prepareForInstallMany adding bindme@^1.0.0 from flow-chart dependencies
+152 silly prepareForInstallMany adding react@16.x from flow-chart peerDependencies
+153 silly prepareForInstallMany adding react-dom@16.x from flow-chart peerDependencies
+154 warn peerDependencies The peer dependency react@16.x included from flow-chart will no
+155 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+156 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+157 warn peerDependencies The peer dependency react-dom@16.x included from flow-chart will no
+158 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+159 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+160 verbose readDependencies loading dependencies from /Users/zhoulinzhu./router-demo/node_modules/flow-chart/package.json
+161 silly cache add args [ 'bindme@^1.0.0', null ]
+162 verbose cache add spec bindme@^1.0.0
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'bindme@^1.0.0',
+163 silly cache add   scope: null,
+163 silly cache add   name: 'bindme',
+163 silly cache add   rawSpec: '^1.0.0',
+163 silly cache add   spec: '>=1.0.0 <2.0.0',
+163 silly cache add   type: 'range' }
+164 silly addNamed bindme@>=1.0.0 <2.0.0
+165 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for bindme
+166 silly addNameRange { name: 'bindme', range: '>=1.0.0 <2.0.0', hasData: false }
+167 silly mapToRegistry name bindme
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry data Result {
+170 silly mapToRegistry   raw: 'bindme',
+170 silly mapToRegistry   scope: null,
+170 silly mapToRegistry   name: 'bindme',
+170 silly mapToRegistry   rawSpec: '',
+170 silly mapToRegistry   spec: 'latest',
+170 silly mapToRegistry   type: 'tag' }
+171 silly mapToRegistry uri https://registry.npmjs.org/bindme
+172 verbose addNameRange registry:https://registry.npmjs.org/bindme not in flight; fetching
+173 verbose request uri https://registry.npmjs.org/bindme
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 2:35:14 PM
+176 verbose etag W/"598e3562-e36"
+177 verbose lastModified Fri, 11 Aug 2017 22:53:22 GMT
+178 http request GET https://registry.npmjs.org/bindme
+179 http 304 https://registry.npmjs.org/bindme
+180 verbose headers { date: 'Tue, 29 Aug 2017 06:35:14 GMT',
+180 verbose headers   via: '1.1 varnish',
+180 verbose headers   'cache-control': 'max-age=300',
+180 verbose headers   etag: 'W/"598e3562-e36"',
+180 verbose headers   age: '0',
+180 verbose headers   connection: 'keep-alive',
+180 verbose headers   'x-served-by': 'cache-nrt6120-NRT',
+180 verbose headers   'x-cache': 'HIT',
+180 verbose headers   'x-cache-hits': '1',
+180 verbose headers   'x-timer': 'S1503988514.199478,VS0,VE128',
+180 verbose headers   vary: 'Accept-Encoding, Accept' }
+181 silly get cb [ 304,
+181 silly get   { date: 'Tue, 29 Aug 2017 06:35:14 GMT',
+181 silly get     via: '1.1 varnish',
+181 silly get     'cache-control': 'max-age=300',
+181 silly get     etag: 'W/"598e3562-e36"',
+181 silly get     age: '0',
+181 silly get     connection: 'keep-alive',
+181 silly get     'x-served-by': 'cache-nrt6120-NRT',
+181 silly get     'x-cache': 'HIT',
+181 silly get     'x-cache-hits': '1',
+181 silly get     'x-timer': 'S1503988514.199478,VS0,VE128',
+181 silly get     vary: 'Accept-Encoding, Accept' } ]
+182 verbose etag https://registry.npmjs.org/bindme from cache
+183 verbose get saving bindme to /Users/zhoulinzhu./.npm/registry.npmjs.org/bindme/.cache.json
+184 verbose correctMkdir /Users/zhoulinzhu./.npm correctMkdir not in flight; initializing
+185 silly addNameRange number 2 { name: 'bindme', range: '>=1.0.0 <2.0.0', hasData: true }
+186 silly addNameRange versions [ 'bindme', [ '1.0.0' ] ]
+187 silly addNamed bindme@1.0.0
+188 verbose addNamed "1.0.0" is a plain semver version for bindme
+189 silly cache afterAdd bindme@1.0.0
+190 verbose afterAdd /Users/zhoulinzhu./.npm/bindme/1.0.0/package/package.json not in flight; writing
+191 verbose correctMkdir /Users/zhoulinzhu./.npm correctMkdir not in flight; initializing
+192 verbose afterAdd /Users/zhoulinzhu./.npm/bindme/1.0.0/package/package.json written
+193 silly install resolved [ { name: 'bindme',
+193 silly install resolved     version: '1.0.0',
+193 silly install resolved     description: 'is a helper to bind a list of methods to an object reference',
+193 silly install resolved     main: 'bindme.js',
+193 silly install resolved     scripts:
+193 silly install resolved      { postversion: 'git push origin v${npm_package_version}; npm publish; git push origin master',
+193 silly install resolved        test: 'echo "Error: no test specified" && exit 1' },
+193 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/fibo/bindme.git' },
+193 silly install resolved     keywords: [ 'bind', 'helper', 'autobind', 'react', 'performance', 'tip' ],
+193 silly install resolved     author: { name: 'Gianluca Casati', email: 'gcasati@beintoo.com' },
+193 silly install resolved     license: 'MIT',
+193 silly install resolved     bugs: { url: 'https://github.com/fibo/bindme/issues' },
+193 silly install resolved     homepage: 'http://g14n.info/bindme',
+193 silly install resolved     gitHead: '022e6df133eba86f84cda4fe83e01a659eddcdf0',
+193 silly install resolved     _id: 'bindme@1.0.0',
+193 silly install resolved     _npmVersion: '5.3.0',
+193 silly install resolved     _nodeVersion: '8.2.1',
+193 silly install resolved     _npmUser: { name: 'fibo', email: 'casati_gianluca@yahoo.it' },
+193 silly install resolved     dist:
+193 silly install resolved      { integrity: 'sha512-nYHD52cV2RerOo9LSXbeePm5AjYSmcqh0lvm8zqy8Y6SUQ85Y1mkpbwJENSaNjDVQEFjWwCx9nXstAVTMqMDtQ==',
+193 silly install resolved        shasum: '0962f1a011a91ff74c1c77a0b7054796cbda99fc',
+193 silly install resolved        tarball: 'https://registry.npmjs.org/bindme/-/bindme-1.0.0.tgz' },
+193 silly install resolved     maintainers: [ [Object] ],
+193 silly install resolved     _npmOperationalInternal:
+193 silly install resolved      { host: 's3://npm-registry-packages',
+193 silly install resolved        tmp: 'tmp/bindme-1.0.0.tgz_1502492001918_0.38683491852134466' },
+193 silly install resolved     directories: {},
+193 silly install resolved     _shasum: '0962f1a011a91ff74c1c77a0b7054796cbda99fc',
+193 silly install resolved     _resolved: 'https://registry.npmjs.org/bindme/-/bindme-1.0.0.tgz',
+193 silly install resolved     _from: 'bindme@>=1.0.0 <2.0.0',
+193 silly install resolved     readme: 'ERROR: No README data found!' } ]
+194 info install bindme@1.0.0 into /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+195 info installOne bindme@1.0.0
+196 verbose installOne of bindme to /Users/zhoulinzhu./router-demo/node_modules/flow-chart not in flight; installing
+197 verbose correctMkdir /Users/zhoulinzhu./.npm/_locks correctMkdir not in flight; initializing
+198 verbose lock using /Users/zhoulinzhu./.npm/_locks/bindme-3fdf1d517df6d384.lock for /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme
+199 silly install write writing bindme 1.0.0 to /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme
+200 verbose unbuild node_modules/flow-chart/node_modules/bindme
+201 silly gentlyRm /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme is being purged from base /Users/zhoulinzhu./router-demo
+202 verbose gentlyRm don't care about contents; nuking /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme
+203 verbose tar unpack /Users/zhoulinzhu./.npm/bindme/1.0.0/package.tgz
+204 verbose tar unpacking to /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme
+205 silly gentlyRm /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme is being purged
+206 verbose gentlyRm don't care about contents; nuking /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme
+207 silly gunzTarPerm modes [ '755', '644' ]
+208 silly gunzTarPerm extractEntry package.json
+209 silly gunzTarPerm extractEntry README.md
+210 silly gunzTarPerm extractEntry bindme.js
+211 verbose write writing to /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme/package.json
+212 info preinstall bindme@1.0.0
+213 verbose readDependencies loading dependencies from /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme/package.json
+214 verbose readDependencies loading dependencies from /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme/package.json
+215 silly install resolved []
+216 verbose about to build /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme
+217 info build /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme
+218 info linkStuff bindme@1.0.0
+219 silly linkStuff bindme@1.0.0 has /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules as its parent node_modules
+220 verbose linkBins bindme@1.0.0
+221 verbose linkMans bindme@1.0.0
+222 verbose rebuildBundles bindme@1.0.0
+223 info install bindme@1.0.0
+224 info postinstall bindme@1.0.0
+225 verbose unlock done using /Users/zhoulinzhu./.npm/_locks/bindme-3fdf1d517df6d384.lock for /Users/zhoulinzhu./router-demo/node_modules/flow-chart/node_modules/bindme
+226 verbose about to build /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+227 info build /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+228 info linkStuff flow-chart@0.0.2
+229 silly linkStuff flow-chart@0.0.2 has /Users/zhoulinzhu./router-demo/node_modules as its parent node_modules
+230 verbose linkBins flow-chart@0.0.2
+231 verbose linkMans flow-chart@0.0.2
+232 verbose rebuildBundles flow-chart@0.0.2
+233 verbose rebuildBundles [ 'bindme' ]
+234 info install flow-chart@0.0.2
+235 info postinstall flow-chart@0.0.2
+236 verbose readDependencies loading dependencies from /Users/zhoulinzhu./router-demo/package.json
+237 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/babel-core/package.json
+238 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/babel-loader/package.json
+239 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/babel-preset-es2015/package.json
+240 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/babel-preset-react/package.json
+241 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/cross-env/package.json
+242 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/css-loader/package.json
+243 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/echarts/package.json
+244 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/echarts-for-react/package.json
+245 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/file-loader/package.json
+246 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/flow-chart/package.json
+247 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/highcharts-exporting/package.json
+248 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/highcharts-more/package.json
+249 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/http-server/package.json
+250 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/jquery/package.json
+251 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/node-sass/package.json
+252 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/prop-types/package.json
+253 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/react/package.json
+254 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/react-css-modules/package.json
+255 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/react-dom/package.json
+256 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/react-highcharts/package.json
+257 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/react-js-diagrams/package.json
+258 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/react-router/package.json
+259 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/sass-loader/package.json
+260 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/scss-loader/package.json
+261 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/style-loader/package.json
+262 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/url-loader/package.json
+263 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/webpack/package.json
+264 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/webpack-dev-server/package.json
+265 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/.bin/cross-env/package.json
+266 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/.bin/cross-env-shell/package.json
+267 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/.bin/hs/package.json
+268 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/.bin/http-server/package.json
+269 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/.bin/node-sass/package.json
+270 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/.bin/webpack/package.json
+271 verbose targetResolver reading package data from /Users/zhoulinzhu./router-demo/node_modules/.bin/webpack-dev-server/package.json
+272 verbose already installed skipping react@16.x /Users/zhoulinzhu./router-demo
+273 verbose already installed skipping react-dom@16.x /Users/zhoulinzhu./router-demo
+274 silly install resolved []
+275 verbose unlock done using /Users/zhoulinzhu./.npm/_locks/flow-chart-2881fc7bb28455e7.lock for /Users/zhoulinzhu./router-demo/node_modules/flow-chart
+276 verbose validateInstall loading /Users/zhoulinzhu./router-demo/package.json for validation
+277 verbose stack Error: The package react@15.6.1 does not satisfy its siblings' peerDependencies requirements!
+277 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+277 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+277 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+277 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+277 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+277 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+277 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+277 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+277 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+277 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+278 verbose cwd /Users/zhoulinzhu./router-demo
+279 error Darwin 15.5.0
+280 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "flow-chart"
+281 error node v4.4.7
+282 error npm  v2.15.8
+283 error code EPEERINVALID
+284 error peerinvalid The package react@15.6.1 does not satisfy its siblings' peerDependencies requirements!
+284 error peerinvalid Peer react-dom@15.6.1 wants react@^15.6.1
+284 error peerinvalid Peer react-router@3.0.2 wants react@^0.14.0 || ^15.0.0
+284 error peerinvalid Peer echarts-for-react@1.4.4 wants react@>=0.13.2 || ^0.14 || ^15.0.0 || >=16.0.0-alpha.1 <17.0.0
+284 error peerinvalid Peer flow-chart@0.0.2 wants react@16.x
+284 error peerinvalid Peer react-highcharts@12.0.0 wants react@~0.14 || ^15.0.0
+285 verbose exit [ 1, true ]

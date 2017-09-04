@@ -1,0 +1,10 @@
+CACHE MANIFEST
+#v0.11
+
+CACHE:
+style/movies.css
+style.home.css
+modules/News.js
+
+NETWORK:
+images/an.jpg
